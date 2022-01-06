@@ -1,0 +1,306 @@
+
+body {
+color: #010101;
+font-size: 14px;
+background-color: #FDFDFD;
+font-family: 'Gosha Sans', sans-serif;
+height: 100vh;
+overflow: hidden;
+
+}
+
+
+
+.vl {
+    border-left: 4px solid #FDCDD5;
+    height: 85vh;
+    position: absolute;
+    left: 55%;
+    margin-left: -2px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.hl {
+    border-top: 4px solid #FDCDD5;
+    width: 90vw;
+    position: absolute;
+    margin-left: 40px;
+    top: 60%;
+    margin-top: -2px;
+}
+
+h1 {
+    font-size: 3vw;
+    color: #9797C1;
+    position: absolute;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'KC Wax Museum', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-family: 'KT Cement Early', sans-serif;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: #010101;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+}
+
+
+section.about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 55vw;
+    height: 60vh;
+}
+
+.about h1 {
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.aboutflex {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    margin-left: 60px;
+}
+
+.abouttext {
+    margin-left: 0px;
+    width: 50%;
+    max-width: 400px;
+}
+
+.abouttext h2 {
+    margin-bottom: 0px;
+}
+
+.abouttext p {
+    padding-bottom: 10px;
+    line-height: 3.4vh;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.abouttext a:hover{
+    color: #FDCDD5;
+}
+
+.aboutimage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutimage img {
+    width: 100%;
+    margin-top: 60px;
+    max-width: 300px;
+}
+
+.moodboard {
+    margin-left: 60px;
+}
+
+.moodboard h3 {
+    position: absolute;
+    z-index: 2;
+    letter-spacing: 3px;
+}
+
+.moodboard img {
+    position: absolute;
+    bottom: 3%;
+    left: 40px;
+    z-index: 1;
+    animation: spin 20s linear infinite;
+    width: 5vw;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+section.work {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 45vw;
+    height: 60vh;
+}
+
+.work h1 {
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.projecttiles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.work img {
+    width: 16vw;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+section.contact {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 55vw;
+    height: 40vh;
+}
+
+.contact h1 {
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 25px;
+  }
+  
+  input, textarea {
+    width: 20vw;
+    height: 17vh;
+    border: 4px solid #010101;
+    color: #010101;
+    padding: 8px 16px;
+  }
+  
+  ::placeholder {
+    color:#010101;
+    font-size: 20px;;
+  }
+  
+  label {
+    color:#010101;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    border: 4px solid #010101;
+    background-color: #FDFDFD;
+    color: #010101;
+    font-size: 2vh;
+    padding: 5px 36px;
+    border-radius: 1px;
+    width: 20vw;
+    height: 5vh;
+  }
+  
+  button:hover {
+    color: #010101;
+  }
+
+  button .submite { display: none; }
+  button:hover .submitq { display: none; }
+  button:hover .submite { display: inline; }
+
+  .contacticons {
+      position: absolute;
+      right: 5vw;
+      top: 100px;
+      display: flex;
+      align-items: center;
+  }
+
+  .contacticons img {
+      margin-left: 2vw;
+      filter: grayscale(100%) brightness(0%);
+  }
+
+
+section.resume {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 45vw;
+    height: 40vh;
+}
+
+.resume h1 {
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.clickhere {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    width: 30vw;
+    height: 16vh;
+    border: 2px solid #FDCDD5;
+}
+
+.clickhere:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: -7px;
+    left: -7px;
+    right: 4px;
+    bottom: 4px;
+    border: 2px solid #9797C1;
+  }
+  
+.clickhere p {
+    font-weight: 600;
+    font-size: 1.6vw;
+    padding-left: 45px;
+}
+
+.logo {
+    position: absolute;
+    bottom: 20px;
+    left: 51.5%;
+    filter: brightness(30%);
+    
+}
+
+.logo img {
+    max-width: 100px;
+    width: 7vw;
+}
+
+header, footer, .mobileintro, .mobilework, .workscroll, .mobileresume, .mobilecontact {
+    display: none;
+}

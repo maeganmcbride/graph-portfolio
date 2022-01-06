@@ -1,0 +1,299 @@
+
+body {
+   margin-left: 10vw;
+   margin-right: 10vw;
+   display: flex;
+   flex-direction: column;
+   height:fit-content;
+   overflow: auto;
+   margin-bottom: 100px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.vl, .hl {
+    display: none;
+}
+
+section.about, section.work, section.contact, section.resume {
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+section.work, section.resume, section.contact {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlogo img {
+   width: 75px;
+}
+
+nav {
+    display: flex;
+}
+
+nav p {
+    padding-left: 20px;
+}
+
+.mobileintro {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileintro h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mobileintro p {
+    font-size: 16px;
+}
+
+.introflex1, .introflex2 {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.introflex1 p {
+    padding-bottom: 25px;
+}
+
+.based {
+    padding-left: 20px;
+}
+
+.available {
+    padding-left: 50px;
+}
+
+.redstar {
+    margin-right: 40px;
+    margin-top: 0px;
+    width: 100px;
+}
+
+.cappuccino {
+    margin-top: -10px;
+}
+
+.blackstar {
+    width: 70px;
+    margin-left: 60px;
+    margin-top: -20px;
+}
+
+.see {
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 40px;
+}
+
+.mypicture {
+    margin-left: -50px;
+    margin-right: -50px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.mobilework {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mobilework h1 {
+    color: #010101;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.pinkstar {
+    margin-top: 20px;
+    margin-right: 60px;
+    width: 100px;
+}
+
+
+
+.workscroll {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.tile img {
+        flex: 0 0 auto;
+        width: 10vw;
+        min-width: 250px;
+        margin-left: 40px;
+        padding-bottom: 40px;
+    }
+
+.bookmeister, .lokaal {
+    margin-left: -40px;
+}
+   
+.gallerypal, .comingsoon {
+    margin-left: 80px;
+}
+
+
+.mobileresume {
+    display: block;
+}
+
+.pinkbanner {
+    background-color: #FDCDD5;
+    width: 100vw;
+    height: 80px;
+    margin-left: -10vw;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pinkbanner p {
+    display: block;
+    text-align: center;
+    font-size: 4vw;
+    letter-spacing: 2px;
+}
+
+
+
+h1 {
+    font-family: 'KT Cement Early';
+    letter-spacing: 8px;
+    font-size: 48px;
+}
+
+h2 {
+    display: none;
+}
+
+
+section.about {
+    background-color: #010101;
+    display: flex;
+    margin-left: -10vw;
+    position: relative;
+    top: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.about h1 {
+    right: auto;
+    bottom: auto;
+    top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: -60px;
+    margin-left: 60px;
+    color: #FDFDFD;
+}
+
+.aboutimage {
+    display: none;
+}
+
+.aboutflex {
+    margin-left: 0px;
+}
+
+.abouttext {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.abouttext p, .abouttext a {
+    font-size: 15px;
+    color: #FDFDFD;
+    width: 80%;
+    letter-spacing: 2px;
+}
+
+.moodboard {
+    display: none;
+}
+
+
+.clickhere {
+    border: none;
+}
+
+.clickhere:before {
+    display: none;
+}
+
+
+.mobilecontact {
+    display: block;
+}
+
+.mobilecontact h1 {
+    color:#010101;
+    text-align: end;
+}
+
+.mobilecontacticons {
+    margin-top: 110px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.mobilecontacticons img {
+    padding-right: 40px;
+    width: 40px;
+}
+
+.mobileform {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 160px;
+  }
+
+  .mobileform input, .mobileform textarea {
+    width: 300px;
+    height: 17vh;
+  }
+
+.mobileform  button {
+    width: 340px;
+    height: 5vh;
+    font-size: 16px;
+  }
+
+
+footer {
+    display: flex;
+    margin-top: 480px;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+
+
+.logo {
+    display: none;
+}
